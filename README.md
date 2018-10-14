@@ -1,3 +1,16 @@
+<h2>XLM RELAY SWITCH</h2>
+
+Switch a relay by sending a payment to an address. This is a weekend project and the relay will be used to switch on a plug. The plug is connected to
+a flood light. 
+
+The frontend will be hosted on the WWW.
+The backend listening for a payment will be run on a raspberry pi 1.
+
+Frontend developed in angular with bootstrap.
+
+Payment receiver developed in nodejs.
+
+Rasperrby Pi running pilfs. Linux from scratch. http://intestinate.com/pilfs/
 # XlmRelaySwitch
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 6.2.5.

@@ -23,9 +23,13 @@
               "src/assets"
             ],
             "styles": [
+              "node_modules/bootstrap/dist/css/bootstrap.css",
               "src/styles.css"
             ],
-            "scripts": []
+            "scripts": [
+              "node_modules/stellar-base/dist/stellar-base.min.js",
+              "node_modules/stellar-sdk/dist/stellar-sdk.min.js"
+            ]
           },
           "configurations": {
             "production": {
