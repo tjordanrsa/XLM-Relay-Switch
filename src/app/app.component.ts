@@ -16,9 +16,9 @@ export class AppComponent {
   }
   toggleFL() {
     console.log('toggle fl');
-    const secret = 'SDQDV4UAHKPHMLLRU75IDSFOGRXJTHNMPKFBNAQRIK2QERSFISEA67IR';
-    const from = 'GBTRBLOXVJ6GQ4LPWRVIXESZKK4JF4VRRUNRHDSYG4EKMMGIV7W356WM';
-    const to = 'GA2UQASSLB5FTPR3Z555UOMBI6ZIW6KO5VDGWDBHMDSGIE2QAU7WSSPI';
+    const secret = '<your private key>';
+    const from = '<from address>';
+    const to = '<to address>';
 
     StellarSdk.Network.usePublicNetwork();
 
